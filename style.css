@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+}
+
+section {
+    text-align: center;
+    height: 100vh;
+}
+
+section p {
+    max-width: 75%;
+    margin: 16px auto;
+}
