@@ -16,7 +16,6 @@ class Swiper {
 
     startTouch(e) {
         e.preventDefault()
-        console.log(e)
         this.initialX = e.touches[0].clientX
         this.initialY = e.touches[0].clientY
     }
